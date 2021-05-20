@@ -128,7 +128,7 @@ ol, ul {
   margin-left: 0;
 }
 pre {
-  white-space: pre-wrap;  
+  white-space: pre-wrap;
   background-color: #EEE;
   border-radius: 4px;
   line-height: 2;
@@ -175,6 +175,7 @@ time {
 
 img {
   width: 100%;
+
 }
 
 table {
@@ -205,4 +206,13 @@ tr {
 		margin-left: 2em;
 		margin-right: 2em;
 	}
+}
+
+.gist .gist-file {
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.gist .gist-meta {
+  background-color: #EEE !important;
 }
