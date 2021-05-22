@@ -10,7 +10,6 @@ description: >-
   A collection of Branden Higby's ramblings.
 url: "https://higby.io"
 timezone: America/Los_Angeles
-highlighter: none
 
 defaults:
   - scope:
@@ -34,7 +33,7 @@ plugins:
   - jekyll-gist
 
 sass:
-    style: expanded
+    style: compressed
     sourcemap: never
     sass_dir: assets/css/_sass
 

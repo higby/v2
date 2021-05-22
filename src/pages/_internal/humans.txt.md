@@ -60,6 +60,8 @@ Libraries:
 - [anime.js](https://github.com/juliangarnier/anime/)
 - [Letterize.js](https://github.com/WojciechKrakowiak/letterize/)
 - [tinykeys](https://github.com/jamiebuilds/tinykeys/)
+- [normalize.css](https://github.com/necolas/normalize.css/)
+- [Homebrewery](https://github.com/naturalcrit/homebrewery/) - DnD background & colors
 
 Jekyll Plugins:
 - [Jekyll TOC](https://github.com/allejo/jekyll-toc)
