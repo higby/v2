@@ -6,7 +6,6 @@
 Site CSS
 --------------------------------
 */
-
 html {
   scroll-behavior: smooth;
 }
@@ -223,3 +222,4 @@ tr {
   background-color: $lightGrey !important;
 }
 @import "syntax";
+@import "collections";
