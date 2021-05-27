@@ -3,7 +3,6 @@ title:  "Sliver Deck"
 date: 2021-02-26 00:05:00 -0800
 setup:
   date: hidden
-  style: dnd
 tags: collections
 ---
 
@@ -23,7 +22,7 @@ tags: collections
     {% if card.type == type %}
       {% if card.amount %}
         {% for i in (1..card.amount) %}
-          <div id="{{card.name | slugify: "pretty"}}" class="card">
+          <div id="{{card.name | slugify: "pretty"}}-{{i}}" class="card">
             <img src="../assets/images/cards/sliver/sliver-{{card.name | slugify: "pretty" }}-{{i}}.jpeg">
             <span>{{card.name}}</span>
           </div>
