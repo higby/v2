@@ -1,4 +1,108 @@
 ---
 ---
 @import "light";
-@import "primary";
+$mono-font: "Source Code Pro", monospace;
+
+/*
+--------------------------------
+Site Theme
+--------------------------------
+*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $mono-font;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 16px;
+}
+a {
+  color: #0000EE;
+}
+a:active {
+  color: #EE0000;
+}
+pre {
+  white-space: pre-wrap;
+  font-style: italic;
+  line-height: 2;
+  padding: 15px 1.5em;
+  font-size: 85%;
+}
+code {
+  font-family: $mono-font;
+  font-style: italic;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+footer {
+  margin-bottom: 20px;
+}
+nav ul ul {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  body {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+img {
+  width: 100%;
+}
+/*
+--------------------------------
+Specific Use
+--------------------------------
+*/
+
+.card,.box {
+  margin: 0 30px 5px 0;
+  padding-top: 15px;
+  text-align: center;
+  width: 180px;
+}
+.card {
+  img {
+    border-radius: 4.75% / 3.5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .card,.box {
+    width: calc(50% - 15px);
+  }
+}
+@media screen and (max-width: 700px) {
+  .card:nth-child(2n),.box:nth-child(2n) {
+    margin: 0 0 5px 0;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .card:nth-child(3n),.box:nth-child(3n) {
+    margin: 0 0 5px 0;
+  }
+}
+.cardList,.boxList {
+  display: flex;
+  flex-flow: row wrap;
+}
+.imgHolder {
+  background-color: $lightGrey;
+  padding: 10px;
+}
+.up {
+  transform: translateY(-5px);
+}
+.ball {
+  display: block;
+  height: 32px;
+  left: 5px;
+  margin-bottom: -32px;
+  position: relative;
+  top: 5px;
+  width: 32px;
+  z-index: 1;
+}
