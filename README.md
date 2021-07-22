@@ -14,7 +14,7 @@ Each new page has the `page` layout automatically applied. This can be overridde
 
 All pages within the site are further organized into the /_pages folder and each page's permalink matches it's filename and directory stemming from here
 ## Pages
-The front matter is used to define a number of things as shown below:
+The front matter is used to define a number of things as shown belo w:
 ```
 title: "Page title" # not the permalink
 
